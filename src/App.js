@@ -3,7 +3,7 @@ import {Switch, Route, Redirect} from 'react-router-dom';
 import {connect} from 'react-redux';
 import './App.css';
 import {auth, createUserProfileDocument} from './firebase/firebase.utils';
-import {setCurrentUser} from './redux/user/user.action';
+import {setCurrentUser} from './redux/user/user.actions';
 
 // components
 import HomePage from './pages/homepage/homepage.component';
